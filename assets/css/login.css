@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;1,200&family=Sono:wght@300;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background-color: #ffcefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    height: 100vh;
+    width: 100%;
+}
+
+.container .login_box {
+    position: relative;
+    display: flex;
+    background-color: white;
+    padding: 2%;
+    height: 100%;
+    width: 100%;
+}
+.container .login_box .emoji{
+    position: absolute;
+    right: -12px;
+    top: -16px;
+    font-size: 2.5rem;
+    rotate: 30deg;
+}
+.container .login_box .left_box {
+    width: 60%;
+    padding: 3% 6%;
+}
+
+.container .login_box .right_box {
+    position: relative;
+    width: 40%;
+    padding: 6%;
+}
+.login_box .style_box_blue{
+    right: -1%;
+    top: 9%;
+    width: 46%;
+    height: 74%;
+    background-color: #9dc4ff;
+    border-radius: 50%;
+    -webkit-filter: blur(55px);
+    
+}
+.login_box .style_box{
+    position: absolute;
+    border-radius: 50%;
+}
+.login_box .style_box_blue1{
+    left: -5%;
+    top: -8%;
+    width: 27%;
+    height: 56%;
+    background-color: #e9b7ebdb;
+    -webkit-filter: blur(41px);
+    
+}
+.login_box .style_box2{
+    background-color: #e28d8d45;
+    left: 48%;
+    top: 33px;
+    width: 8%;
+    height: 17%;
+}
+.login_box .style_box3{
+    right: 35%;
+    background-color: blue;
+    top: 8%;
+    width: 2%;
+    height: 4%;
+}
+.login_box .style_box4{
+    background-color: #efa0a0b8;
+    right: 5%;
+    bottom: 7%;
+    width: 5%;
+    height: 11%;
+}
+
+
+.left_box .img1{
+    height: 84%;
+    position: absolute;
+    top: 20%;
+    left: -24px;
+    max-width: 70%;
+}
+.left_box .img2 {
+    height: 81%;
+    position: absolute;
+    top: 19%;
+    left: 38%;
+    width: 22%;
+}
+
+
+.login_box .heading {
+   position: relative;
+   z-index: 1;
+    margin: 5px 0;
+    color: rgb(17, 17, 17);
+}
+.login_box .paragraph {
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+    color: rgb(129, 127, 127);
+}
+
+.login_box .right_box .userbox {
+    position: relative;
+}
+
+.login_box .right_box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+
+.login_box .right_box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login_box .right_box input:focus~label,
+.login_box .right_box input:valid~label {
+    top: -20px;
+    left: 0;
+    font-size: 12px;
+}
+
+.right_box .forgotpass {
+    position: absolute;
+    top: -12px;
+    right: 0;
+}
+
+.btn {
+    background-color: #614bcb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(95, 141, 242)
+}
+
+.right_box .singup_box{
+    display:flex;
+    align-items: center;
+    justify-content: end;
+}
+.right_box .singup_box p{
+    color: rgb(141, 140, 140);
+    margin: 0 10px;
+}
